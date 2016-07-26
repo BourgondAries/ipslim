@@ -2,6 +2,13 @@
 name = "ipslim"
 version = "1.0.0"
 authors = ["Bourgond Aries <macocio@gmail.com>"]
+license = "GPL-3.0"
+keywords = ["frame", "limit", "ips", "fps"]
+repository = "https://github.com/BourgondAries/ipslim"
+description = """
+Simple native frame/iteration per second limiter using
+the last time delta to compute the sleep length.
+"""
 
 [dependencies]
 clippy = { version = "0.0.79", optional = true }
